@@ -1,4 +1,53 @@
+:root {
+  --header: #232f3e;
+  --white: #fff;
+}
+
 header {
+  color: var(--white);
+  background-color: var(--header);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+nav {
+  font-size: 125%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
   display: flex;
   flex-direction: column;
+}
+
+.aboutMe {
+  border: solid black;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 200%;
+  width: 25%;
+  border: solid blue;
+  display: flex;
+  justify-content: flex-end;
 }
