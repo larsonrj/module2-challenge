@@ -53,17 +53,14 @@ main {
   margin: 0 2%;
 }
 
-.aboutMe {
+.section-style {
   width: 100%;
   margin: 20px auto;
-  min-height: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
-.aboutMe p {
-  max-width: 50%;
+.section-style p {
+  max-width: 66%;
   font-size: 90%;
   padding: 20px;
   flex: 2 0 auto;
@@ -76,13 +73,32 @@ main {
   color: var(--section);
   font-size: 200%;
   width: 33%;
-  min-height: 100%;
   font-family: roboto slab, sans-serif;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 
 .work-examples {
-  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-left-style: solid;
+  border-left-color: var(--red);
+  width: 66%;
+  padding: 20px;
+}
+
+#wide {
+  flex: 90%;
+  background-color: var(--red);
+  min-height: 300px;
+  text-align: center;
+  margin: 5px;
+}
+.work-examples a {
+  flex: 45%;
+  text-align: center;
+  min-height: 300px;
+  background-color: var(--section);
+  margin: 5px;
 }
