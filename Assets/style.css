@@ -42,8 +42,8 @@ nav ul li {
   text-decoration: underline var(--red);
 }
 
-a:link,
-a:visited {
+.nav-link:link,
+.nav-link:visited {
   color: var(--yellow);
   text-decoration: underline var(--red);
 }
@@ -101,4 +101,27 @@ main {
   min-height: 300px;
   background-color: var(--section);
   margin: 5px;
+  color: var(--white);
+}
+
+.contact {
+  border-left-style: solid;
+  border-left-color: var(--red);
+  width: 66%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.contact ul {
+  background-color: var(--header);
+  padding: 5px;
+  flex: 90%;
+  color: var(--yellow);
+  font-family: roboto slab, sans-serif;
+  display: flex;
+  font-size: 150%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  height: 125%;
 }
