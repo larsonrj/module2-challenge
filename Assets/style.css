@@ -2,9 +2,9 @@
 :root {
   --header: #232f3e;
   --white: #fff;
-  --section: #1D428A;
-  --red: #8B2131;
-  --yellow: #FEC524;
+  --section: #1d428a;
+  --red: #8b2131;
+  --yellow: #fec524;
 }
 
 header {
@@ -23,7 +23,6 @@ header {
 
 h1 {
   font-size: 200%;
-  
 }
 
 nav {
@@ -43,6 +42,11 @@ nav ul li {
   text-decoration: underline var(--red);
 }
 
+a:link,
+a:visited {
+  color: var(--yellow);
+  text-decoration: underline var(--red);
+}
 main {
   display: flex;
   flex-direction: column;
@@ -58,7 +62,7 @@ main {
   align-items: center;
 }
 
-.aboutMe p{
+.aboutMe p {
   max-width: 50%;
   font-size: 90%;
   padding: 20px;
