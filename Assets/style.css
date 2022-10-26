@@ -155,3 +155,10 @@ a:hover .title {
   margin: 5px;
   height: 125%;
 }
+
+@media screen and (max-width: 1150px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
