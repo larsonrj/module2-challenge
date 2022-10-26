@@ -90,19 +90,34 @@ main {
 
 .work-examples .wide {
   flex: 90%;
-  min-height: 300px;
   text-align: center;
+  position: relative;
   margin: 5px;
+}
+
+.title {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 250%;
+  color: var(--yellow);
+}
+a:hover img {
+  border: solid var(--yellow);
+}
+a:hover .title {
+  color: var(--red);
 }
 .work-examples a {
   flex: 45%;
   text-align: center;
-  min-height: 300px;
+  position: relative;
   margin: 5px;
   color: var(--white);
 }
 .work-examples img {
   width: 100%;
+  max-height: 500px;
 }
 
 .contact {
