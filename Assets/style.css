@@ -3,20 +3,27 @@
   --header: #232f3e;
   --white: #fff;
   --section: #1D428A;
+  --red: #8B2131;
+  --yellow: #FEC524;
 }
-
 
 header {
   color: var(--white);
   background-color: var(--header);
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 35px;
   align-items: center;
+  border-bottom-style: solid;
+  border-bottom-color: var(--red);
+  border-bottom-width: 5px;
+  font-family: roboto slab, sans-serif;
+  color: var(--yellow);
 }
 
 h1 {
   font-size: 200%;
+  
 }
 
 nav {
@@ -32,22 +39,32 @@ nav ul {
   justify-content: space-evenly;
 }
 
+nav ul li {
+  text-decoration: underline var(--red);
+}
+
 main {
   display: flex;
   flex-direction: column;
+  margin: 0 2%;
 }
 
 .aboutMe {
   width: 100%;
-  margin: 0 auto;
-  height: 100px;
+  margin: 20px auto;
+  min-height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .aboutMe p{
-  padding: 40px;
+  max-width: 50%;
+  font-size: 90%;
+  padding: 20px;
+  flex: 2 0 auto;
+  border-left-style: solid;
+  border-left-color: var(--red);
 }
 
 .section-title {
@@ -55,9 +72,13 @@ main {
   color: var(--section);
   font-size: 200%;
   width: 33%;
-  height: 90%;
-  border: solid green;
+  min-height: 100%;
+  font-family: roboto slab, sans-serif;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.work-examples {
+  height: 1000px;
 }
