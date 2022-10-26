@@ -1,7 +1,10 @@
+/* Create root for color variables to be used throughout the page */
 :root {
   --header: #232f3e;
   --white: #fff;
+  --section: #1D428A;
 }
+
 
 header {
   color: var(--white);
@@ -35,7 +38,6 @@ main {
 }
 
 .aboutMe {
-  border: solid black;
   width: 100%;
   margin: 0 auto;
   height: 100px;
@@ -44,10 +46,18 @@ main {
   align-items: center;
 }
 
+.aboutMe p{
+  padding: 40px;
+}
+
 .section-title {
+  padding: 20px;
+  color: var(--section);
   font-size: 200%;
-  width: 25%;
-  border: solid blue;
+  width: 33%;
+  height: 90%;
+  border: solid green;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
