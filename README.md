@@ -20,7 +20,7 @@ Link to deployed website is [Ryan Larson Portfolio](https://larsonrj.github.io/r
 
 ## Website Preview
 
-![Screenshot of Ryan Larson Portfolio](./assets/portfolio-screenshot.PNG)
+![Screenshot of Ryan Larson Portfolio](./Assets/portfolio-screenshot.PNG)
 
 ## Future Improvements
 
